@@ -1,0 +1,8 @@
+[package]
+name = "syscheck"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.29"  # For system information like CPU, memory, and disks
+chrono = "0.4"    # For date and time formatting
